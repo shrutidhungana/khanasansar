@@ -4,10 +4,11 @@
     height: 60px;
     position: relative;
     z-index: 999;
-    transition: $transition;
+      background-color: #212529;
 
     .navbar-brand-text{
         margin-left: 5px;
+        color: white;
     }
     .navbar-search-btn{
         margin-right: 12px;
@@ -25,9 +26,11 @@
     .header-content{
         height: 400px;
         background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../../assets/images/header_image.jpg") center/cover no-repeat;
+        background-color: rgba(0, 0, 0, 0.5); 
     }
     .header-title{
         margin-top: 2.4rem;
+        color: white;
     }
 }
 
@@ -51,6 +54,7 @@
 
         .btn-icon{
             transition: $transition;
+            
         }
 
         &:after{
